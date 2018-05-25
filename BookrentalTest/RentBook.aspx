@@ -31,11 +31,11 @@
                                             <td>&nbsp;</td>
                                         </tr>
                                         <tr>
-                                            <td style="width: 127px">
+                                            <td style="width: 127px; height: 23px;">
                                                 &nbsp;
                                                 <asp:Label ID="Label3" runat="server" Text="Publisher"></asp:Label>
                                             </td>
-                                            <td>&nbsp;</td>
+                                            <td style="height: 23px"></td>
                                         </tr>
                                         <tr>
                                             <td style="width: 127px; height: 37px;">
@@ -86,7 +86,7 @@
                                 <td>
                                     <table style="width: 100%">
                                         <tr>
-                                            <td style="width: 205px; height: 28px">&nbsp;
+                                            <td style="width: 205px; height: 28px">&nbsp;&nbsp;
                                                 <asp:CheckBox ID="CheckBox2" runat="server" Text="7 Days" />
                                             </td>
                                             <td style="height: 28px">
@@ -94,7 +94,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td style="width: 205px; height: 32px">&nbsp;
+                                            <td style="width: 205px; height: 32px">&nbsp;&nbsp;
                                                 <asp:CheckBox ID="CheckBox1" runat="server" Text="14 Days" />
                                             </td>
                                             <td style="height: 32px">
@@ -102,7 +102,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td style="width: 205px; height: 32px">&nbsp;
+                                            <td style="width: 205px; height: 32px">&nbsp;&nbsp;
                                                 <asp:CheckBox ID="CheckBox3" runat="server" Text="21 Days" />
                                             </td>
                                             <td style="height: 32px">
@@ -132,9 +132,6 @@
                                             <td style="height: 20px">&nbsp;</td>
                                         </tr>
                                         <tr>
-                                            <td colspan="2">&nbsp;</td>
-                                        </tr>
-                                        <tr>
                                             <td style="width: 205px">&nbsp;&nbsp;
                                                 <asp:Label ID="Label13" runat="server" Text="TOTAL PRICE"></asp:Label>
                                             </td>
@@ -148,17 +145,21 @@
                                             <td>&nbsp;</td>
                                         </tr>
                                         <tr>
-                                            <td style="width: 205px">&nbsp; &nbsp;<asp:RadioButtonList ID="RadioButtonList1" runat="server">
-                                                <asp:ListItem>7days</asp:ListItem>
-                                                <asp:ListItem>14 day</asp:ListItem>
-                                                <asp:ListItem>21 day</asp:ListItem>
-                                                </asp:RadioButtonList>
+                                            <td style="width: 205px">&nbsp; &nbsp;<asp:Label ID="Label14" runat="server" Text="Select the location"></asp:Label>
                                             </td>
-                                            <td>&nbsp;</td>
+                                            <td>
+                                                <asp:DropDownList ID="Drp_LocationList" runat="server" Height="18px" Width="131px" DataSourceID="SqlPickUpLocation" DataTextField="location_name" DataValueField="location_name">
+                                                </asp:DropDownList>
+                                                
+                                                <asp:SqlDataSource ID="SqlPickUpLocation" runat="server" ConnectionString="<%$ ConnectionStrings:BookRentalConnectionString %>" SelectCommand="SELECT [location_name] FROM [Location]"></asp:SqlDataSource>
+                                                
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td style="width: 205px">&nbsp;</td>
-                                            <td>&nbsp;</td>
+                                            <td>
+                                                <asp:Button ID="Btn_addToCart" runat="server" OnClick="Btn_addToCart_Click" Text="Add To Cart" Width="82px" />
+                                            </td>
                                         </tr>
                                        
                                     </table>
