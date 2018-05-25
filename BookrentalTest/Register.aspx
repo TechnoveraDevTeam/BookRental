@@ -59,8 +59,9 @@
             </td>
         </tr>
         <tr>
-            <td colspan="2" style="height: 66px">
-                <asp:Button ID="btnRegister" runat="server" Font-Bold="True" Font-Size="Medium" Height="40px" OnClick="btnRegister_Click" Text="Register" Width="214px" />
+            <td style="height: 66px">&nbsp;</td>
+            <td style="height: 66px">
+                <asp:Button ID="btnRegister" runat="server" Font-Bold="True" Font-Size="Medium" Height="40px" OnClick="btnRegister_Click" style="margin-right: 59" Text="Register" Width="214px" />
             </td>
         </tr>
     </table>
