@@ -34,9 +34,15 @@ namespace BookrentalTest
                 sqlCmd.Parameters.AddWithValue("@password", txtPassword.Text.Trim());
                 sqlCmd.Parameters.AddWithValue("@role", txtRole.Text.Trim());
                 sqlCmd.ExecuteNonQuery();
-               /// MessageBox.Show("Registration is successful");
+                ///Response.Write("<script>alert('Registration is successful');</script>");
+                /// MessageBox.Show("Registration is successful");
                 Clear();
             }
+        }
+
+        internal void Show()
+        {
+            throw new NotImplementedException();
         }
 
         void Clear()
