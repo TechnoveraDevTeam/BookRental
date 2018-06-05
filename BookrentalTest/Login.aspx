@@ -43,8 +43,8 @@
         <tr>
             <td style="width: 117px; height: 34px"></td>
             <td class="text-left" style="height: 34px">&nbsp;<asp:Label ID="Label2" runat="server" Text="Dont have an account?"></asp:Label>
-&nbsp;&nbsp;&nbsp;
-                <asp:Label ID="lblRegister" runat="server" BorderColor="Black" Font-Bold="True" Font-Size="Medium" ForeColor="Blue" Text="Register"></asp:Label>
+&nbsp;<asp:Button ID="btnRegister" runat="server" BackColor="White" BorderColor="White" BorderStyle="None" CssClass="col-xs-offset-0" Font-Bold="True" ForeColor="#3333FF" Height="18px" style="margin-top: 14" Text="Register" OnClick="btnRegister_Click" />
+                &nbsp;&nbsp;
             </td>
         </tr>
         <tr>
