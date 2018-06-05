@@ -163,6 +163,7 @@
     <Content Include="Login.aspx" />
     <Content Include="Register.aspx" />
     <Content Include="RentBook.aspx" />
+    <Content Include="RentYourBook.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -252,6 +253,13 @@
     </Compile>
     <Compile Include="RentBook.aspx.designer.cs">
       <DependentUpon>RentBook.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RentYourBook.aspx.cs">
+      <DependentUpon>RentYourBook.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RentYourBook.aspx.designer.cs">
+      <DependentUpon>RentYourBook.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
