@@ -40,6 +40,15 @@ namespace BookrentalTest {
         protected global::System.Web.UI.WebControls.Label Label1;
         
         /// <summary>
+        /// lbl_bookTitle control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbl_bookTitle;
+        
+        /// <summary>
         /// Label2 control.
         /// </summary>
         /// <remarks>
@@ -47,6 +56,15 @@ namespace BookrentalTest {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label2;
+        
+        /// <summary>
+        /// lbl_author control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbl_author;
         
         /// <summary>
         /// Label3 control.
@@ -58,6 +76,15 @@ namespace BookrentalTest {
         protected global::System.Web.UI.WebControls.Label Label3;
         
         /// <summary>
+        /// lbl_publisher control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbl_publisher;
+        
+        /// <summary>
         /// Label4 control.
         /// </summary>
         /// <remarks>
@@ -65,6 +92,15 @@ namespace BookrentalTest {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label4;
+        
+        /// <summary>
+        /// lbl_publicationDate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbl_publicationDate;
         
         /// <summary>
         /// Label5 control.
@@ -76,6 +112,15 @@ namespace BookrentalTest {
         protected global::System.Web.UI.WebControls.Label Label5;
         
         /// <summary>
+        /// lbl_isbn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbl_isbn;
+        
+        /// <summary>
         /// Label6 control.
         /// </summary>
         /// <remarks>
@@ -83,6 +128,15 @@ namespace BookrentalTest {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label6;
+        
+        /// <summary>
+        /// lbl_status control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbl_status;
         
         /// <summary>
         /// Panel2 control.
@@ -103,13 +157,13 @@ namespace BookrentalTest {
         protected global::System.Web.UI.WebControls.Label Label9;
         
         /// <summary>
-        /// CheckBox2 control.
+        /// day7 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox2;
+        protected global::System.Web.UI.WebControls.RadioButton day7;
         
         /// <summary>
         /// Label10 control.
@@ -121,13 +175,13 @@ namespace BookrentalTest {
         protected global::System.Web.UI.WebControls.Label Label10;
         
         /// <summary>
-        /// CheckBox1 control.
+        /// day14 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox1;
+        protected global::System.Web.UI.WebControls.RadioButton day14;
         
         /// <summary>
         /// Label11 control.
@@ -139,13 +193,13 @@ namespace BookrentalTest {
         protected global::System.Web.UI.WebControls.Label Label11;
         
         /// <summary>
-        /// CheckBox3 control.
+        /// day21 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox3;
+        protected global::System.Web.UI.WebControls.RadioButton day21;
         
         /// <summary>
         /// Label12 control.
@@ -157,13 +211,13 @@ namespace BookrentalTest {
         protected global::System.Web.UI.WebControls.Label Label12;
         
         /// <summary>
-        /// CheckBox4 control.
+        /// dayCustom control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox4;
+        protected global::System.Web.UI.WebControls.RadioButton dayCustom;
         
         /// <summary>
         /// TextBox1 control.
@@ -193,13 +247,13 @@ namespace BookrentalTest {
         protected global::System.Web.UI.WebControls.Label Label13;
         
         /// <summary>
-        /// lb_totalPrice control.
+        /// lbl_totalPrice control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lb_totalPrice;
+        protected global::System.Web.UI.WebControls.Label lbl_totalPrice;
         
         /// <summary>
         /// Label14 control.
@@ -218,15 +272,6 @@ namespace BookrentalTest {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList Drp_LocationList;
-        
-        /// <summary>
-        /// SqlPickUpLocation control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource SqlPickUpLocation;
         
         /// <summary>
         /// Btn_addToCart control.
